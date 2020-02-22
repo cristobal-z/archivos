@@ -1,0 +1,35 @@
+ 
+
+
+SELECT j.idfaltas folio, a.id_alu matricula, a.nom nombre, j.fec_ fecha,
+e.nom_esp especialidad, t.nom tutor,a.sem semestre, j.obs observaciones
+FROM escolar.faltas j, escolar.alu a, escolar.especialidad e, escolar.tutores t
+where j.id_alu = a.id_alu and j.id_alu = e.id_alu
+and j.id_alu = t.id_alu 
+
+
+
+zBUZRk3ap6g
+
+
+http://www.cristalab.com/tutoriales/fechas-con-mysql-c84136l/
+
+
+
+https://www.xnxx.com/video-e2pno74/tetas-grandes
+
+SELECT gra, gru grupo,count(sex)Niñas,(select count(*) FROM estadistica.altas_alumnos where gra = 1 and gru = 'B') - count(sex
+) niños  FROM estadistica.altas_alumnos
+where sex ='femenino' and gra = 1 and gru = 'B'
+group by gra,gru union 
+
+SELECT gra, gru grupo,count(sex)Niñas,(select count(*) FROM estadistica.altas_alumnos where gra = 1 and gru = 'A') - count(sex
+) niños  FROM estadistica.altas_alumnos
+where sex ='femenino' and gra = 1 and gru = 'A'
+group by gra,gru union
+
+
+SELECT gra, gru grupo,count(sex)Niñas,(select count(*) FROM estadistica.altas_alumnos where gra = 2 and gru = 'A') - count(sex
+) niños  FROM estadistica.altas_alumnos
+where sex ='femenino' and gra = 2 and gru = 'A'
+group by gra,gru 
