@@ -1,4 +1,4 @@
- 
+ prueba desde windows
 df
 
 SELECT j.idfaltas folio, a.id_alu matricula, a.nom nombre, j.fec_ fecha,
